@@ -1,0 +1,48 @@
+Fahim Abrar
+2205070
+CSE
+attached
+11223344555
+1491
+Rafid Mostafiz
+2205080
+CSE
+resident
+11122334455
+1491
+Raad Sharar
+2106013
+EEE
+resident
+12345123455
+1490
+Adnan Adib
+2210123
+Mecha
+resident
+12312312312
+1490
+Saad Mueen
+2208045
+BME
+attached
+11133322213
+1490
+Fairuz Chowdhury
+2204011
+CIvil
+attached
+99887799887
+1490
+Habiba Lamia
+2205133
+CSE
+resident
+23456234565
+1490
+Sarowar Sadat
+2210065
+Mecha
+resident
+33334444555
+1490
