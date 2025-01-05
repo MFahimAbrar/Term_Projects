@@ -1,0 +1,23 @@
+.text-input {
+    -fx-padding: 4px 0; /* Padding for the text field */
+    -fx-border-width: 0 0 2px 0; /* Border as a bottom line */
+    -fx-border-color: transparent transparent #19388A transparent; /* Default grey border */
+    -fx-background-color: transparent; /* Transparent background */
+    -fx-text-fill: #19388A; /* Default text color */
+    -fx-transition: all 1s ease-in-out; /* Smooth transitions */
+}
+
+.text-input:focused {
+    -fx-border-color: #4F91CD #4F91CD #4F91CD #4F91CD; /* Transition to blue border */
+    -fx-text-fill: #4F91CD; /* Change text color to blue */
+    -fx-border-image-source: linear-gradient(to left, #777 50%, #4F91CD 50%);
+    -fx-border-image-slice: 1;
+    -fx-border-image-width: 0 0 2px 0; /* Apply to bottom border only */
+    -fx-border-image-repeat: stretch;
+    -fx-transition: all 1s ease-in-out; /* Smooth color transition */
+}
+
+.text-input:focused .text-input-placeholder {
+    -fx-opacity: 0; /* Hide placeholder on focus */
+    -fx-transition: opacity 0.3s;
+}

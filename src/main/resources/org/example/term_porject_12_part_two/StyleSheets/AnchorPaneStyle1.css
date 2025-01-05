@@ -1,0 +1,47 @@
+.anchor-pane-IPL-Logo {
+    -fx-background-image: url("IPL_logo.png"); /* Replace with the path to your PNG image */
+    -fx-background-repeat: no-repeat;           /* Ensures no tiling of the image */
+    -fx-background-position: center;           /* Centers the image in the pane */
+    -fx-background-size: auto 80%;             /* Maintains the aspect ratio and sets the height to 80% */
+
+}
+
+.anchor-pane-Search_Players-Logo {
+    -fx-background-image: url("Search_Players_Logo.png"); /* Replace with the path to your PNG image */
+    -fx-background-repeat: no-repeat;           /* Ensures no tiling of the image */
+    -fx-background-position: center;           /* Centers the image in the pane */
+    -fx-background-size: auto 80%;             /* Maintains the aspect ratio and sets the height to 80% */
+
+}
+
+.anchor-pane-Search_Clubs-Logo {
+    -fx-background-image: url("Search_Clubs.png"); /* Replace with the path to your PNG image */
+    -fx-background-repeat: no-repeat;           /* Ensures no tiling of the image */
+    -fx-background-position: center;           /* Centers the image in the pane */
+    -fx-background-size: auto 80%;             /* Maintains the aspect ratio and sets the height to 80% */
+
+}
+
+.anchor-pane-Buy_Sell-Logo {
+    -fx-background-image: url("Buy_Sell.png"); /* Replace with the path to your PNG image */
+    -fx-background-repeat: no-repeat;           /* Ensures no tiling of the image */
+    -fx-background-position: center;           /* Centers the image in the pane */
+    -fx-background-size: auto 80%;             /* Maintains the aspect ratio and sets the height to 80% */
+
+}
+
+.anchor-pane-Team_Players-Logo {
+    -fx-background-image: url("Cricket_Players.png"); /* Replace with the path to your PNG image */
+    -fx-background-repeat: no-repeat;           /* Ensures no tiling of the image */
+    -fx-background-position: center;           /* Centers the image in the pane */
+    -fx-background-size: auto 80%;             /* Maintains the aspect ratio and sets the height to 80% */
+
+}
+
+.anchor-pane-Add_Player-Logo {
+    -fx-background-image: url("Add_Player.png"); /* Replace with the path to your PNG image */
+    -fx-background-repeat: no-repeat;           /* Ensures no tiling of the image */
+    -fx-background-position: center;           /* Centers the image in the pane */
+    -fx-background-size: auto 80%;             /* Maintains the aspect ratio and sets the height to 80% */
+
+}
