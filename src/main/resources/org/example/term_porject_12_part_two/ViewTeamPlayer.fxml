@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" styleClass="anchor-pane-Team_Players-Logo" stylesheets="@StyleSheets/AnchorPaneStyle1.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.term_porject_12_part_two.Scenes.ViewTeamPlayerController">
+    <children>
+        <Text fill="#18ac91" layoutX="522.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="View Team Player" AnchorPane.topAnchor="50.0">
+            <font>
+                <Font name="Times New Roman" size="24.0" />
+            </font>
+        </Text>
+        <ListView fx:id="DisplayTeamPlayer" layoutY="332.0" prefHeight="338.0" prefWidth="1179.0" styleClass="custom-list-view" stylesheets="@StyleSheets/ListViewStyle1.css" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="51.0" AnchorPane.topAnchor="332.0" />
+        <Button fx:id="BackButton" layoutX="1157.0" layoutY="145.0" mnemonicParsing="false" onAction="#onBackClick" styleClass="redBtn" stylesheets="@StyleSheets/ButtonStyle1.css" text="Back" AnchorPane.leftAnchor="1100.0">
+            <font>
+                <Font name="Times New Roman" size="18.0" />
+            </font>
+        </Button>
+      <Text fx:id="TeamText" layoutX="51.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Team\Text">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="NumberText" layoutX="51.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of Players: ">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="SalaryText" layoutX="887.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Salary of Players:">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <HBox layoutX="51.0" layoutY="312.0" prefHeight="16.0" prefWidth="1179.0" spacing="10">
+         <children>
+            <StackPane prefWidth="150" style="-fx-background-color: #19388A;">
+               <children>
+                  <Text fill="white" text="Name" textAlignment="CENTER" wrappingWidth="150">
+                     <font>
+                        <Font name="Times New Roman" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <StackPane prefWidth="100" style="-fx-background-color: #4F91CD;">
+               <children>
+                  <Text fill="white" text="Country" textAlignment="CENTER" wrappingWidth="100">
+                     <font>
+                        <Font name="Times New Roman" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <StackPane prefWidth="170" style="-fx-background-color: #19388A;">
+               <children>
+                  <Text fill="white" text="Club" textAlignment="CENTER" wrappingWidth="170">
+                     <font>
+                        <Font name="Times New Roman" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <StackPane prefWidth="130" style="-fx-background-color: #4F91CD;">
+               <children>
+                  <Text fill="white" text="Position" textAlignment="CENTER" wrappingWidth="130">
+                     <font>
+                        <Font name="Times New Roman" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <StackPane prefWidth="130" style="-fx-background-color: #19388A;">
+               <children>
+                  <Text fill="white" text="Age" textAlignment="CENTER" wrappingWidth="130">
+                     <font>
+                        <Font name="Times New Roman" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <StackPane prefWidth="150" style="-fx-background-color: #4F91CD;">
+               <children>
+                  <Text fill="white" text="Number" textAlignment="CENTER" wrappingWidth="150">
+                     <font>
+                        <Font name="Times New Roman" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <StackPane prefWidth="150" style="-fx-background-color: #19388A;">
+               <children>
+                  <Text fill="white" text="Weekly Salary" textAlignment="CENTER" wrappingWidth="150">
+                     <font>
+                        <Font name="Times New Roman" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <StackPane prefWidth="70" style="-fx-background-color: #4F91CD;">
+               <children>
+                  <Text fill="white" text="Height" textAlignment="CENTER" wrappingWidth="123.59997940063477">
+                     <font>
+                        <Font name="Times New Roman" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+         </children>
+      </HBox>
+    </children>
+
+</AnchorPane>
