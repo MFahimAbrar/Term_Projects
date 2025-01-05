@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="SearchByClubAndCountryButton" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.term_porject_12_part_two.Scenes.SearchByPlayerHomeController">
+    <children>
+        <Button fx:id="SearchByNameButton" layoutX="200.0" layoutY="311.6" mnemonicParsing="false" onAction="#onSearchByNameClick" prefHeight="40.0" prefWidth="250.0" text="Search by Name" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="300.0">
+            <font>
+                <Font name="Times New Roman" size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="SearchByTeamButton" layoutX="200.0" layoutY="400.0" mnemonicParsing="false" onAction="#onSearchByClubAndCountryClick" prefHeight="40.0" prefWidth="250.0" text="Search by Club and Country" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="400.0">
+            <font>
+                <Font name="Times New Roman" size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="SearchByPositionButton" layoutX="274.0" layoutY="510.0" mnemonicParsing="false" onAction="#onSearchByPostionClick" prefHeight="40.0" prefWidth="250.0" text="Search by Position" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="500.0">
+            <font>
+                <Font name="Times New Roman" size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="CountryWiseCountButton" layoutX="880.0" layoutY="301.2" mnemonicParsing="false" onAction="#onCountryWIseCountClick" prefHeight="40.0" prefWidth="250.0" text="Country Wise Count" AnchorPane.leftAnchor="830.0" AnchorPane.topAnchor="301.2">
+            <font>
+                <Font name="Times New Roman" size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="SearchBySalaryRangeButton" layoutX="744.0" layoutY="400.0" mnemonicParsing="false" onAction="#onSearchBySalaryClick" prefHeight="40.0" prefWidth="250.0" text="Search by Salary Range" AnchorPane.leftAnchor="830.0" AnchorPane.topAnchor="400.0">
+            <font>
+                <Font name="Times New Roman" size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="BackButton" layoutX="744.0" layoutY="500.0" mnemonicParsing="false" onAction="#onBackClick" prefHeight="40.0" prefWidth="250.0" text="Back" AnchorPane.leftAnchor="830.0" AnchorPane.topAnchor="500.0">
+            <font>
+                <Font name="Times New Roman" size="18.0" />
+            </font>
+        </Button>
+      <Text fx:id="SearchByPlayerHomeTitle" fill="#18ac91" layoutX="491.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search by Player Home Screen" AnchorPane.topAnchor="150.0">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Text>
+    </children>
+
+</AnchorPane>
